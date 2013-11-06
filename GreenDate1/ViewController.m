@@ -17,8 +17,10 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    //image url
     
     NSString *exampleString =@"	<a href=\"http://www.mobile.safilsunny.com\"><img src=\"http://www.mobile.safilsunny.com/wp-content/themes/Polished/images/logo.png\" alt=\"Logo\" id=\"logo\"/></a>";
+    
 	// Do any additional setup after loading the view, typically from a nib.
     
     NSString *imgUrl =[self getImgUrl:exampleString];
